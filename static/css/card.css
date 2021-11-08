@@ -1,0 +1,31 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #69695edf;
+    background-clip: border-box;
+    border: 1px solid #69695edf;
+    border-radius: .25rem;
+}
+.section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 19px;
+    font-weight: 70;
+    font-family: "Playfair Display", serif;
+    color: rgba(0, 0, 0, 0.74);
+    background-color: #5f5f55;
+}
+.section-title h2 {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 1px;
+    line-height: 1px;
+    margin: 0px 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000c4;
+    font-family: "Poppins", sans-serif;
+}
