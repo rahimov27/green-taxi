@@ -1,4 +1,4 @@
-#!/Users/r27/Desktop/Elfido/venv/bin/python3
+#!/Users/stalker/stalker/green-taxi/venv/bin/python3.9
 # -*- coding: utf-8 -*-
 import re
 import sys

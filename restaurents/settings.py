@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'accounts.apps.AccountsConfig',
-    'eco_drivers.apps.Eco_Drivers',
+    'Ecodrivers.apps.EcodriversConfig',
     
 ]
 
@@ -87,9 +87,9 @@ WSGI_APPLICATION = 'restaurents.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'elfido',
-        'USER': 'postgres',
-        'PASSWORD': '12345',
+        'NAME': 'elfido_db',
+        'USER': 'elfido_user',
+        'PASSWORD': 'elfido_pass',
         'HOST': 'localhost',
         'PORT': '5432',
     }
