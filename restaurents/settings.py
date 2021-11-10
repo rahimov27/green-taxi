@@ -87,9 +87,9 @@ WSGI_APPLICATION = 'restaurents.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'elfido_db',
-        'USER': 'elfido_user',
-        'PASSWORD': 'elfido_pass',
+        'NAME': 'eco-driver',
+        'USER': 'postgres',
+        'PASSWORD': '328332',
         'HOST': 'localhost',
         'PORT': '5432',
     }

@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls.conf import path
 
 
 class Starter(models.Model):
@@ -22,5 +23,5 @@ class Table(models.Model):
         db_table = 'Eco_Drivers'
 
     def __str__(self) -> str:
-        return self.email
+        return f'{self.name} {self.email} {self.phone}'
 

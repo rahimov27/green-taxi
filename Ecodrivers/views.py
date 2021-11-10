@@ -69,9 +69,9 @@ def Contact1(request):
         ins = Table(name=name, email=email, phone=phone, message=message)
         ins.save()
         print('data save in db')
-        return render(request, 'booktable.html')
+        return render(request, 'contact.html')
     else:
-        return render(request, 'booktable.html')
+        return render(request, 'contact.html')
 
 
 def form(request):

@@ -4,9 +4,9 @@
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #69695edf;
+    background-color: #ffffff;
     background-clip: border-box;
-    border: 1px solid #69695edf;
+    border: 1px solid #ffffff;
     border-radius: .25rem;
 }
 .section-title p {
@@ -16,7 +16,7 @@
     font-weight: 70;
     font-family: "Playfair Display", serif;
     color: rgba(0, 0, 0, 0.74);
-    background-color: #5f5f55;
+    background-color: #ffffff;
 }
 .section-title h2 {
     font-size: 17px;

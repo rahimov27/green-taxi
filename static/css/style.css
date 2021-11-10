@@ -210,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
 # Book a table button Menu
 --------------------------------------------------------------*/
 .book-a-table-btn {
-  margin: 0 0 0 15px;
+  margin: 0px 0 10px 70px;
   border: 2px solid #218a4a;
   color: #fff;
   border-radius: 50px;
@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px 10px 0px 70px;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
