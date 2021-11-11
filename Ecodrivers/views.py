@@ -22,6 +22,18 @@ def menu(request):
     # specialtys = Specialty.objects.all()
      return render(request, "menu.html")
 
+def menu2(request):
+    # starters = Starter.objects.all()
+    # salads = Salad.objects.all()
+    # specialtys = Specialty.objects.all()
+     return render(request, "menu2.html")
+
+def menu3(request):
+    # starters = Starter.objects.all()
+    # salads = Salad.objects.all()
+    # specialtys = Specialty.objects.all()
+     return render(request, "menu3.html")
+
 
 def booktable(request):
     if request.method == "POST":

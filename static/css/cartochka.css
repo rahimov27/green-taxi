@@ -11,7 +11,7 @@ button, select {
     text-transform: none;
 }
 button, input, optgroup, select, textarea {
-    margin: 10px;
+    margin: 30px;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
@@ -61,7 +61,7 @@ button {
 }
 .row {
     --bs-gutter-x: 4.5rem;
-    --bs-gutter-y: 15px;
+    --bs-gutter-y: 10px;
     display: flex;
     flex-wrap: wrap;
     margin-top: calc(var(--bs-gutter-y) * -1);
@@ -69,8 +69,8 @@ button {
     margin-left: calc(var(--bs-gutter-x)/ -2);
 }
 .row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 30px;
+    --bs-gutter-x: 4.5rem;
+    --bs-gutter-y: 5px;
     display: flex;
     flex-wrap: wrap;
     margin-top: calc(var(--bs-gutter-y) * -1);
@@ -85,7 +85,7 @@ body {
 body {
     margin: 0;
     font-family: var(--bs-font-sans-serif);
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 400;
     line-height: 1.5;
     color: #7ca02a;
